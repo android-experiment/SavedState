@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/9216335/212598710-3706000e-2bb0-425f-a
 https://user-images.githubusercontent.com/9216335/212598716-a6639659-b624-4254-9bfd-ce58cd9d3887.mp4  
 
 #### CustomView 상태 저장 구현
-```
+```kotlin
 override fun onRestoreInstanceState(state: Parcelable?) {
     if (state is SavedState) {
         super.onRestoreInstanceState(state.superState)
